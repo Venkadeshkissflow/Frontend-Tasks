@@ -1,0 +1,44 @@
+
+.nav{
+    border: 1px solid red;
+    width:100px;
+    /* padding: 20px; */
+    position: absolute;
+    height: 100%;
+    left: 0px;
+}
+
+.containers{
+    height: 300px;
+    position: relative;
+    border: 1px solid blueviolet;
+}
+
+.section1{
+    border: 1px solid rgb(0, 234, 255);
+    width: fit-content;
+    /* float: right; */
+    position: absolute;
+    left: 102px;
+}
+
+.section2{
+    border: 1px solid rgb(0, 234, 255);
+    width: fit-content;
+    /* float: right; */
+    position: absolute;
+    bottom: 0px;
+    left: 102px;
+    top:100px;
+    height: fit-content;
+}
+
+.section3{
+    border: 1px solid rgb(0, 234, 255);
+    width: fit-content;
+    /* float: right; */
+    position: absolute;
+    bottom: 0px;
+    left: 102px;
+}
+
