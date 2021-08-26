@@ -80,3 +80,52 @@
     border-radius: 5px;
 }
 
+@media only screen and (max-width: 768px)  {
+    .centerArea{
+        grid-area: center;
+        background-color:hsl(196deg 100% 87%);
+        display: grid;
+        grid-gap: 2em;
+        grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 3fr 2fr;
+        grid-template-areas: 
+        "centeralign1 centeralign1 centeralign1"
+        "centeralignsub1 centeralignsub1 centeralignsub1"
+        "centeralignsub2 centeralignsub2 centeralignsub2"
+        "centeralignsub3 centeralignsub3 centeralignsub3"
+        "centeralign2 centeralign2 centeralign2"
+        "centeralignsub31 centeralignsub31 centeralignsub31"
+        "centeralignsub32 centeralignsub32 centeralignsub32";
+    }
+}
+
+@media only screen and (max-width: 480px)  {
+    .centerArea{
+        grid-area: center;
+        background-color:hsl(196deg 100% 87%);
+        display: grid;
+        grid-gap: 2em;
+        grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 3fr 2fr;
+        grid-template-areas: 
+        "centeralign1 centeralign1 centeralign1"
+        "centeralignsub1 centeralignsub1 centeralignsub1"
+        "centeralignsub2 centeralignsub2 centeralignsub2"
+        "centeralignsub3 centeralignsub3 centeralignsub3"
+        "centeralign2 centeralign2 centeralign2"
+        "centeralignsub31 centeralignsub31 centeralignsub31"
+        "centeralignsub32 centeralignsub32 centeralignsub32";
+    }
+    .OuterContainer{
+        display: grid;
+        grid-gap: 2em;
+        height: 80%;
+        background-color:hsl(196deg 100% 87%);
+        grid-template-rows: 1fr 7fr 1fr;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "Rightnav"
+        "center"
+        "leftnav";
+    }
+}
