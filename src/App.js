@@ -1,10 +1,12 @@
 import './App.css';
-import Position from './Components/positiontTasks/position';
+// import Position from './Components/positiontTasks/position';
+import Grid from "./Components/Grid/Grid"
 
 function App() {
   return (
     <div>
-        <Position/>
+        {/* <Position/> */}
+        <Grid/>
     </div>
   );
 }

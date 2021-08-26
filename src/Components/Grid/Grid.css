@@ -1,0 +1,82 @@
+.container{
+    height: 100vh;
+}
+
+.OuterContainer{
+    display: grid;
+    grid-gap: 2em;
+    height: 80%;
+    background-color:hsl(196deg 100% 87%);
+    grid-template-rows: 0.5fr 1fr 2fr 2fr;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-areas: 
+    "Rightnav center leftnav"
+    "Rightnav center leftnav"
+    "Rightnav center leftnav"
+    "Rightnav center leftnav";
+}
+
+.centerArea{
+    grid-area: center;
+    background-color:hsl(196deg 100% 87%);
+    display: grid;
+    grid-gap: 2em;
+    grid-template-rows: 0.5fr 1fr 2fr 2fr;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-areas: 
+    "centeralign1 centeralign1 centeralign1"
+    "centeralignsub1 centeralignsub2 centeralignsub3"
+    "centeralign2 centeralign2 centeralign2"
+    "centeralignsub31 centeralignsub31 centeralignsub32";
+}
+
+.Right{
+    grid-area: Rightnav;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.center1{
+    grid-area: centeralign1;
+    background-color: bisque;
+    border-radius: 5px;
+}
+
+.centersub1{
+    grid-area: centeralignsub1;
+    background-color: rgb(232, 255, 196);
+    border-radius: 5px;
+}
+
+.centersub2{
+    grid-area: centeralignsub2;
+    background-color: rgb(196, 255, 211);
+    border-radius: 5px;
+}
+
+.centersub3{
+    grid-area: centeralignsub3;
+    background-color: rgb(205, 196, 255);
+    border-radius: 5px;
+}
+
+.center2{
+    grid-area: centeralign2;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+.center31{
+    grid-area: centeralignsub31;
+    background-color: darksalmon;
+    border-radius: 5px;
+}
+.center32{
+    grid-area: centeralignsub32;
+    background-color: rgb(122, 220, 233);
+    border-radius: 5px;
+}
+.left{
+    grid-area: leftnav;
+    background-color: darkseagreen;
+    border-radius: 5px;
+}
+
